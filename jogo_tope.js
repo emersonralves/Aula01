@@ -1,7 +1,4 @@
-function preload() {
-  soundFormats('mp3', 'ogg');
-  mySound = loadSound('musica.mp3');
-}
+
 var personagem;
 var inicio
 var tecla1, tecla2, tecla3, logo
@@ -16,8 +13,6 @@ var obsX = [], obsY = [], obsVel = [], obsTam = 80, qtobs = 5, contobs = 0 //obs
 var xtiro = [] , ytiro = [] , tiroativo = [] , qtiro = 7, ttiro = -1, tamtiro = 10 // tiros 
 var estrelasX = [], estrelasY = [], estrelasVel = [], estrelasTam = 30, qtEstrelas = 50 //fundo
 function setup() {
-  mySound.setVolume(0.1);
-  mySound.play();
 createCanvas(windowWidth, windowHeight);
 frameRate(30)
 personagem = loadImage("branc.png");
