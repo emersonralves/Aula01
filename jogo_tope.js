@@ -1,4 +1,3 @@
-
 var personagem;
 var inicio
 var tecla1, tecla2, tecla3, logo
@@ -490,6 +489,7 @@ for(i = 0; i < qtobs; i++) {// criando obstaculo
     nivel = 1
     pontos = 0
     bonus = 0
+    vida = 5
     contvida = 0
     xp = 680
     yp = 591
@@ -509,6 +509,7 @@ for(i = 0; i < qtobs; i++) {// criando obstaculo
     nivel = 1
     pontos = 0
     bonus = 0
+    vida = 5
     contvida = 0
     xp = 680
     yp = 591
